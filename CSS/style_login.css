@@ -4,13 +4,14 @@
 
 body nav{
   font-family: Arial, sans-serif;
-  
+
   margin: 0;
   padding: 0;
 }
 
 body main{
   font-family: Arial, sans-serif;
+ 
   margin: 0;
   padding: 0;
   -webkit-user-select: none;
@@ -21,6 +22,7 @@ body main{
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 
   height: 100vh;
   background-size: cover;
@@ -28,13 +30,15 @@ body main{
 }
 
 .screen-1 {
-  background: #f1f7fe;
+  
   padding: 2em;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
+  background-color: #e6e9f9;
   box-shadow: 0 0 2em #e6e9f9;
   gap: 2em;
+  
 }
 .screen-1 .email {
   background: white;
