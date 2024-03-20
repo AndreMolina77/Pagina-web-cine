@@ -1,5 +1,16 @@
 *{
-    background-color: rgb(233, 95, 95);
+    background-color: rgb(158, 144, 144);
   
     font-family: "Poppins";
+}
+
+img {
+    width: 400px;
+    height: 500px;
+    padding: 51px;
+    margin: 100px;
+}
+
+h1{
+    text-align: center;
 }
