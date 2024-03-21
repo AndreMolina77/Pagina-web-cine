@@ -113,7 +113,19 @@ a {
   z-index: 1;
 }
 
+/*********************************************************/
+h1{
+    text-align: center;
+    margin: 12px 0 8px 0;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.linea{
+    border-top: 5px solid #0053c0;
+    margin-bottom: 40px;
+}
+/**********************************************************/
 
 /**************************************************************/
 
