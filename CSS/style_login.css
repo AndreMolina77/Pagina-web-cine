@@ -30,15 +30,13 @@ body main{
 }
 
 .screen-1 {
-  
-  padding: 2em;
+  padding: 8em;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
   background-color: #e6e9f9;
   box-shadow: 0 0 2em #e6e9f9;
-  gap: 2em;
-  
+  gap: 24em;
 }
 .screen-1 .email {
   background: white;
@@ -49,7 +47,7 @@ body main{
   gap: 0.5em;
   border-radius: 20px;
   color: #4d4d4d;
-  margin-top: -3em;
+  margin-top: 0em;
 }
 .screen-1 .email input {
   outline: none;
@@ -59,10 +57,19 @@ body main{
   color: black;
   font-size: 0.9em;
 }
-.screen-1 .email ion-icon {
+.screen-1 .email {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
   color: #4d4d4d;
-  margin-bottom: -0.2em;
+  margin-top: 4px; /* Ajuste de posición */
+  margin-bottom: -200px;
 }
+
 .screen-1 .password {
   background: white;
   box-shadow: 0 0 2em #e6e9f9;
@@ -72,6 +79,7 @@ body main{
   gap: 0.5em;
   border-radius: 20px;
   color: #4d4d4d;
+  margin-bottom: -200px; /* Ajuste de posición */
 }
 .screen-1 .password input {
   outline: none;
