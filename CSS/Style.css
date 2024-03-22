@@ -8,11 +8,21 @@ body {
     padding: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  .panel {
+    padding-top: 10px;
+  }
+}
+
+
 #panel {
-  display: block;
+  background-color: white;
+  display: f;
+  position:sticky;
+  background-size: cover;
   align-content: center;
-  width: 1110px;
-  padding-top: 50px;
+  width: 1250px;
+  padding-top: 20px;
   height: 200px;
   border: 1px solid black;
   margin-bottom: 10px;
@@ -21,11 +31,12 @@ body {
 }
 
 #panel-content {
+  justify-content: center;
   padding: 20px;
 }
 
 #button-container {
-  display: flex;
+  display:flex;
   justify-content: space-around;
 }
 
@@ -52,7 +63,7 @@ body {
 h1 {
   font-size: 24px;
   margin-bottom: 1rem;
-  text-align: center;
+  text-align:justify;
 }
 h2{
   text-align: center;
@@ -218,10 +229,18 @@ p {
   
   .container
   {
+    display:block;
     justify-content: center;
     align-items: center;
   }
   
+  video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:120%;
+    z-index: -1;
+  }
   
   
   
