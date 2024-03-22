@@ -16,6 +16,7 @@ body {
 
 
 #panel {
+  display:flexbox;
   background-color: white;
   background-size: cover;
   align-content: center;
