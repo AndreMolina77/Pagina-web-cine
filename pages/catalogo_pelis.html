@@ -3,195 +3,162 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Catálogo de películas</title>
+    <link rel="stylesheet" href="../CSS/style_catalogo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'> <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+    
 
-            <li class="nav-item">
-              <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="reserva_snacks.html">Reserva de Snacks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="catalogo_pelis.html">Catálogo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="oferta_semanal.html">Ofertas semanales</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Inglés</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="inicio_sesion.html">Inicio de sesion / Login</a>
-            </li>
-          </ul>
-        </div>
+    <div class="nav-wrapper">
+      <div class="container">
+          <div class="nav">
+              <a href="../index.html" class="logo">
+                  <i class='bx bx-movie-play bx-tada'></i>Cine Familiar
+              </a>
+               
+              <ul class="nav-menu" id="nav-menu">
+                
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../pages/catalogo_pelis.html">Catálogo</a></li>
+                  <li><a href="../pages/reserva_snacks.html">Snacks</a></li>
+                  <li><a href="../pages/oferta_semanal.html">Ofertas</a></li>
+                  <li><a href="../pages/sobre_nosotros.html">Información</a></li>
+                  <li><a href="#">Inglés</a></li>
+                  <li>
+                      <a href="../pages/inicio_sesion.html" class="btn btn-hover">
+                          <span>Login</span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
       </div>
-    </nav>
+  </div>
+    
+
+    <h1>Películas más vistas</h1>
+    <div class="linea"></div>
 
 
-    <section class="movies container">
-
-      <h2>Películas más vistas</h2>
-      <hr>
-
-      <div class="box-container-1">
-        <div class="box-1">
-          <div class="content">
-            <img src="../images/Encanto.jpeg" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-  
-        
-        <div class="box-1">
-          <div class="content">
-            <img src="../images/Barbie.jpg" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-  
-        <div class="box-1">
-          <div class="content">
-            <img src="../images/Slayer.jpeg" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-  
-        
-        <div class="box-1">
-          <div class="content">
-            <img src="../images/Oppenheimer.jpeg" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-  
-        <div class="box-1">
-          <div class="content">
-            <img src="../images/Elementos.jfif" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-  
-        <div class="box-1">
-          <div class="content">
-            <img src="../images/Intesamente.png" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-  
-        <div class="box-1">
-          <div class="content">
-            <img src="../images/Coco.png" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-  
-        <div class="box-1">
-          <div class="content">
-            <img src="../images/Freddy´s.png" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-
+    <div class="container-cart-products hidden-cart">
+      <div class="cart-product">
+        <div class="info-cart-product">
+                        <span class="cantidad-producto-carrito">1</span>
+                        <p class="titulo-producto-carrito">Zapatos Nike</p>
+                        <span class="precio-producto-carrito">$80</span>
+                    </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon-close"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
       </div>
-
-
-
-      <div class="load-more" id="load-more-1">Cargar más</div>
-
-    </section>
-
-
-    <section class="movies container">
-
-      <h2>Películas de acción</h2>
-      <hr>
-
-      <div class="box-container-2">
-        <div class="box-2">
-          <div class="content">
-            <img src="../images/Avengers.png" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$200</span>
+                </div>
+    </div>
+  </div>
   
-        
-        <div class="box-2">
-          <div class="content">
-            <img src="../images/Indiana1.png" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
+<div class="container-items">
+  <div class="item">
+    <figure>
+      <img
+        src="../images/Barbie.jfif"
+        alt="producto"
+      />
+    </figure>
+    <div class="info-product">
+      <h2>Barbie</h2>
+
+      <button class="botonesVenta">Añadir al carrito</button>
+    </div>
+  </div>
+  <div class="item">
+    <figure>
+      <img
+        src="../images/Oppenheimer.jfif"
+        alt="producto"
+      />
+    </figure>
+    <div class="info-product">
+      <h2>Oppenheimer</h2>
+      
+
+      <button class="botonesVenta">Añadir al carrito</button>
+    </div>
+  </div>
   
-        <div class="box-2">
-          <div class="content">
-            <img src="../images/MisiónImposible.png" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-  
-        
-        <div class="box-2">
-          <div class="content">
-            <img src="../images/Oppenheimer.jpeg" alt="">
-            <h3>Película HD</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est quae debitis soluta dolores 
-            </p>
-          </div>
-        </div>
-  
-      </section>
-  
-  
-      </div>
-  </section>
+  <div class="item">
+    <figure>
+      <img
+        src="../images/Slayer.jpeg"
+        alt="producto"
+      />
+    </figure>
+    <div class="info-product">
+      <h2>Demon Slayer</h2>
+      <p>To the Hashira Training</p>
+
+      <button class="botonesVenta">Añadir al carrito</button>
+    </div>
+  </div>
+  <div class="item">
+    <figure>
+      <img
+        src="../images/Intesamente.png"
+        alt="producto"
+      />
+    </figure>
+    <div class="info-product">
+      <h2>Intensamente 2</h2>
+
+      <button class="botonesVenta">Añadir al carrito</button>
+    </div>
+  </div>
+</div>
+
+<footer style="background-color: #f8f8f8; padding: 20px; text-align: center;">
+    <p style="font-size: 14px; color: #555;">© 2024 Todos los derechos reservados. Tu Empresa S.A.</p>
+</footer>
+
+    
+
+
+    <style>
+      body{
+        background-color: #222121;
+        margin: 5rem;
+        color: #ffffff
+      }
+
+      a {
+       text-decoration: none;
+      }
+
+      p{
+        text-align: center;
+      }
+
+
+
+    </style>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="../JS/catalogo.js"></script>
   </body>
 </html>
