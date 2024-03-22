@@ -12,9 +12,7 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-}
+ 
 
 body {
   color: var(--text-color);
@@ -125,6 +123,11 @@ h1{
 .linea{
     border-top: 5px solid #0053c0;
     margin-bottom: 40px;
+}
+
+.linea2{
+  border-top: 5px solid #c09d00;
+  margin-bottom: 40px;
 }
 /**********************************************************/
 
@@ -353,14 +356,20 @@ video {
 .btn:hover {
   color: rgb(67, 70, 255); /* Cambia el color al que desees */
 }
+ 
+ /* Ajuste de posición */
+/*
+
 
 p {
-  margin-top: 4px; /* Ajuste de posición */
+  margin-top: 4px;
   margin-bottom: -500px;
   text-align: center;
   font-weight: 600;
-  font-size: 200%;
-}
+  font-size: 100%;
+}*/
+
+
 
 .botonesVenta
 {

@@ -50,34 +50,7 @@
     <div class="linea"></div>
 
 
-    <div class="container-cart-products hidden-cart">
-      <div class="cart-product">
-        <div class="info-cart-product">
-                        <span class="cantidad-producto-carrito">1</span>
-                        <p class="titulo-producto-carrito">Zapatos Nike</p>
-                        <span class="precio-producto-carrito">$80</span>
-                    </div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="icon-close"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
-      </div>
-                <div class="cart-total">
-                    <h3>Total:</h3>
-                    <span class="total-pagar">$200</span>
-                </div>
-    </div>
-  </div>
+    
   
 <div class="container-items">
   <div class="item">
@@ -90,7 +63,10 @@
     <div class="info-product">
       <h2>Barbie</h2>
 
-      <button class="botonesVenta">Añadir al carrito</button>
+      <p class="información">Después de ser expulsada de Barbieland por no ser una muñeca de aspecto perfecto, 
+        Barbie parte hacia el mundo humano para encontrar la verdadera felicidad.</p>
+
+      <button class="botonesVenta">Comprar entrada</button>
     </div>
   </div>
   <div class="item">
@@ -102,9 +78,10 @@
     </figure>
     <div class="info-product">
       <h2>Oppenheimer</h2>
-      
+      <p class="información"> Durante la Segunda Guerra Mundial, el teniente general Leslie Groves designa al físico J. 
+        Robert Oppenheimer un proyecto, cuyo objetivo consiste en fabricar la primera bomba atómica.</p>
 
-      <button class="botonesVenta">Añadir al carrito</button>
+      <button class="botonesVenta">Comprar entrada</button>
     </div>
   </div>
   
@@ -119,7 +96,9 @@
       <h2>Demon Slayer</h2>
       <p>To the Hashira Training</p>
 
-      <button class="botonesVenta">Añadir al carrito</button>
+      <p class="información">Tanjiro se enfrenta al demonio Hantengu, mientras los hashira se preparan para la gran batalla contra Muzan Kibutsuji.</p>
+
+      <button class="botonesVenta">Comprar entrada</button>
     </div>
   </div>
   <div class="item">
@@ -132,13 +111,93 @@
     <div class="info-product">
       <h2>Intensamente 2</h2>
 
-      <button class="botonesVenta">Añadir al carrito</button>
+      <p class="información">Las cinco emociones que conviven en el interior de una niña llamada Riley, alegría, miedo, desagrado, ira y tristeza,
+         a esta aventura se unen ansiedad, vergüenza, aburrimiento y envidia.</p>
+
+      <button class="botonesVenta">Comprar entrada</button>
     </div>
   </div>
 </div>
 
-<footer style="background-color: #f8f8f8; padding: 20px; text-align: center;">
-    <p style="font-size: 14px; color: #555;">© 2024 Todos los derechos reservados. Tu Empresa S.A.</p>
+
+<br>
+<br>
+
+<h1>Películas del Día</h1>
+<div class="linea2"></div>
+
+
+<div class="container-items">
+  <div class="item">
+    <figure>
+      <img
+        src="../images/MisiónImposible.webp"
+        alt="producto"
+      />
+    </figure>
+    <div class="info-product">
+      <h2>Misión Imposible</h2>
+
+      <p class="información">Ethan debe detener a una inteligencia artificial que todas las potencias mundiales codician, 
+        la cual se ha vuelto tan poderosa que se rebeló contra sus creadores y ahora es una amenaza en sí misma.</p>
+
+      <button class="botonesVenta">Comprar entrada</button>
+    </div>
+  </div>
+  <div class="item">
+    <figure>
+      <img
+        src="../images/Encanto.jpeg"
+        alt="producto"
+      />
+    </figure>
+    <div class="info-product">
+      <h2>Encanto</h2>
+      <p class="información"> Mirabel se convierte en la última esperanza para su familia cuando descubre que la magia de Encanto,
+         un lugar especial que bendice a los niños y hogar de los Madrigal, corre un serio peligro.</p>
+
+      <button class="botonesVenta">Comprar entrada</button>
+    </div>
+  </div>
+  
+  <div class="item">
+    <figure>
+      <img
+        src="../images/Elementos.jpg"
+        alt="producto"
+      />
+    </figure>
+    <div class="info-product">
+      <h2>Elementos</h2>
+
+      <p class="información">En una ciudad en la que los elementos de fuego, agua, tierra y aire viven en distritos separados,
+         una chica de fuego y un chico de agua descubren que, aunque la sociedad les diga lo contrario, tienen muchas cosas en común.</p>
+
+      <button class="botonesVenta">Comprar entrada</button>
+    </div>
+  </div>
+  <div class="item">
+    <figure>
+      <img
+        src="../images/Freddy´s.png"
+        alt="producto"
+      />
+    </figure>
+    <div class="info-product">
+      <h2>Five Nigths at Freddy</h2>
+
+      <p class="información">Un problemático guardia de seguridad empieza a trabajar en la pizzería Freddy Fazbear's.
+         Mientras pasa su primera noche en el trabajo, se da cuenta de que el turno de noche en Freddy's no será tan fácil de sobrellevar.</p>
+
+      <button class="botonesVenta">Comprar entrada</button>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<footer style="background-color: #222121; padding: 20px; text-align: center;">
+    <p style="font-size: 14px; color: #ffffff;">© 2024 Todos los derechos reservados. Tu Empresa S.A.</p>
 </footer>
 
     
@@ -157,6 +216,11 @@
 
       p{
         text-align: center;
+      }
+
+      .información {
+        font-size: 100%;
+        text-align: justify;
       }
 
 
