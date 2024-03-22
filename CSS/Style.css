@@ -125,82 +125,7 @@ p {
     background-position: center;
   }
   
-  .screen-1 {
-    padding: 8em;
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
-    background-color: #e6e9f9;
-    box-shadow: 0 0 2em #e6e9f9;
-    gap: 34em;
-  }
-  .screen-1 .email {
-    background: white;
-    box-shadow: 0 0 2em #e6e9f9;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    border-radius: 20px;
-    color: #4d4d4d;
-    margin-top: 0em;
-  }
-  .screen-1 .email input {
-    outline: none;
-    border: none;
-  }
-  .screen-1 .email input::placeholder {
-    color: black;
-    font-size: 0.9em;
-  }
-  .screen-1 .email {
-    background: white;
-    box-shadow: 0 0 2em #e6e9f9;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    border-radius: 20px;
-    color: #4d4d4d;
-    margin-top: 4px; /* Ajuste de posición */
-    margin-bottom: -500px;
-  }
   
-  .screen-1 .password {
-    background: white;
-    box-shadow: 0 0 2em #e6e9f9;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    border-radius: 20px;
-    color: #4d4d4d;
-    margin-bottom: -500px; /* Ajuste de posición */
-    margin-top: 0PX;
-  }
-  .screen-1 .password input {
-    outline: none;
-    border: none;
-  }
-  .screen-1 .password input::placeholder {
-    color: black;
-    font-size: 0.9em;
-  }
-  .screen-1 .password ion-icon {
-    color: #4d4d4d;
-    margin-bottom: -0.2em;
-  }
-  .screen-1 .password .show-hide {
-    margin-right: -5em;
-  }
-  .screen-1 .login {
-    padding: 1em;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    font-weight: 600;
-  }
   
   button {
     cursor: pointer;
@@ -218,7 +143,6 @@ p {
   .nav-wrapper {
     padding: 10px;
     display: flex;
-    position:fixed;
     top: 0;
     left: 0px;
     width: 100%;
@@ -286,9 +210,17 @@ p {
     color: rgb(67, 70, 255); /* Cambia el color al que desees */
   }
 
+  #Conocenos
+  {
+    margin-top: 20px;
+    text-align: center;
+  }
   
-  
-  
+  .container
+  {
+    justify-content: center;
+    align-items: center;
+  }
   
   
   

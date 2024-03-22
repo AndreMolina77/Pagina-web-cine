@@ -6,6 +6,7 @@
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="../CSS/Style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'> <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <div class="nav-wrapper">
@@ -34,10 +35,8 @@
   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<br></br>
-<br></br>
     <header>
-        <h1>Conocenos</h1>
+        <h1 id="Conocenos">Conocenos</h1>
       </header>
     </div>
         <div class="container">
@@ -57,7 +56,9 @@
           const buttons = document.getElementsByClassName("button");
       
           const contentMap = {
-            button1: `<h2>¿Quienes somos?</h2>
+            button1: `
+            <br><br><br><br><br><br><br><br><br>
+            <h2>¿Quienes somos?</h2>
             <div class="sucursal-container">
             <p>Cine Familiar es un espacio creado especialmente para que disfrutes del mejor cine en compañía de tus seres queridos. 
       Brindamos una experiencia cinematográfica segura y agradable para todas las edades, desde los más pequeños hasta los adultos.</p>
@@ -83,7 +84,10 @@
                     <p>Dirección: Avenida Norte #456, Ciudad</p>
                     <p>Teléfono: (503) 7883-7361</p>
                 </div>`,
-            button3: `<h2>Misión</h2>
+            button3: `
+            <br> <br> <br>  
+              
+            <h2>Misión</h2>
                     <div class="sucursal-container">
                     <p>Somos más que un cine. Somos un espacio para soñar y compartir. 
                     Queremos ser el punto de encuentro para la acción cultural, social y ambiental a través de la innovación, el desarrollo y la participación ciudadana.</p>
