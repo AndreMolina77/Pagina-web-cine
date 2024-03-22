@@ -23,7 +23,16 @@
                   <li><a href="../pages/reserva_snacks.html">Snacks</a></li>
                   <li><a href="../pages/oferta_semanal.html">Ofertas</a></li>
                   <li><a href="../pages/sobre_nosotros.html">Información</a></li>
-                  <li><a href="#">Inglés</a></li>
+                  <li><a href="#">
+                    <div id="google_translate_element" class="google"></div>
+                    
+                    <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                      new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en, es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+                            }
+                    </script>
+                    
+                    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></a></li>
                   <li>
                       <a href="../pages/inicio_sesion.html" class="btn btn-hover">
                           <span>Login</span>
@@ -57,7 +66,7 @@
       
           const contentMap = {
             button1: `
-            <br><br><br><br><br><br><br><br><br>
+            <br>
             <h2>¿Quienes somos?</h2>
             <div class="sucursal-container">
             <p>Cine Familiar es un espacio creado especialmente para que disfrutes del mejor cine en compañía de tus seres queridos. 
@@ -85,7 +94,7 @@
                     <p>Teléfono: (503) 7883-7361</p>
                 </div>`,
             button3: `
-            <br> <br> <br>  
+            <br>  
               
             <h2>Misión</h2>
                     <div class="sucursal-container">
@@ -99,7 +108,7 @@
                       Inspirar, educar y conectar a través del séptimo arte, dejando una huella duradera en el corazón de nuestra ciudad.</p>
                 </div>.</p>`,
             button4: `
-            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <br>
             <h3>Términos y Condiciones</h3>
               <ul>
                   <li>Aceptación de los Términos: Al acceder y utilizar este sitio web, usted acepta los presentes términos y condiciones, que regulan el uso del mismo.</li>
