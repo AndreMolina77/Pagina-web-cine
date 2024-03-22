@@ -1,7 +1,7 @@
-*{
+body{
     
   
-    font-family: "Poppins";
+    background-color: #FFCB22;
 }
 
 img {
@@ -226,6 +226,74 @@ h1{
     text-align: center;
     font-weight: 600;
     font-size: 200%;
+  }
+
+
+
+  .maincontainer{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+  }
+  
+  main ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  main ul.slider{
+    position: relative;
+    width: 825px;
+    height: 400px;
+  }
+  
+  main ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      
+  }
+  
+  main ul.slider li img{
+    width: 150%;
+    height: 300px;
+    object-fit: contain;
+  }
+  
+  main ul.slider li:target {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  main ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .main menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .main menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .main menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
   }
   
   
