@@ -6,76 +6,133 @@
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="../CSS/Style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'> <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-
-              <li class="nav-item">
-                <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="reserva_snacks.html">Reserva de Snacks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="catalogo_pelis.html">Catálogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="oferta_semanal.html">Ofertas semanales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Inglés</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="inicio_sesion.html">Inicio de sesion / Login</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <header>
-      <h1>Cine XYZ</h1>
-  </header>
-  <div class="container">
-      <h1>Sobre Nosotros</h1>
-      <p>Somos el Cine XYZ, apasionados por el séptimo arte y comprometidos con brindarte la mejor experiencia cinematográfica.</p>
-      <div class="locations">
-          <div class="location">
-              <h2>Centro Comercial Galerias</h2>
-              <p>Dirección: Calle Principal #123, Ciudad</p>
-              <p>Teléfono: (503) 6420-9215</p>
-          </div>
-          <div class="location">
-              <h2>Metrocentro San Salvador</h2>
-              <p>Dirección: Avenida Norte #456, Ciudad</p>
-              <p>Teléfono: (503) 7883-7361</p>
-          </div>
-          <div class="locations">
-              <h2>Valores</h2>
-              <ul>   
-              <li>Integridad Impecable: Ser honestos en cada acción, guiados por una brújula moral inquebrantable.</li>
-              <li>Humanidad en Acción: Cultivar el respeto y el cuidado por cada individuo, tanto dentro como fuera de la empresa.</li>
-              <li>Entorno Protector: Garantizar un espacio seguro que fomente la tranquilidad y el bienestar para todos.</li>
-              <li> Búsqueda Constante de la Excelencia: Superar las expectativas con un espíritu de mejora continua y pasión por la calidad.</li>
-              <li>Autonomía y Confianza: Empoderar a nuestro equipo para tomar decisiones responsables y construir un futuro juntos.</li>
+    <div class="nav-wrapper">
+      <div class="container">
+          <div class="nav">
+              <a href="../index.html" class="logo">
+                  <i class='bx bx-movie-play bx-tada main-color'></i>Cine<span class="main-color">Fami</span>liar
+              </a>
+               
+              <ul class="nav-menu" id="nav-menu">
+                
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../pages/catalogo_pelis.html">Catálogo</a></li>
+                  <li><a href="../pages/reserva_snacks.html">Snacks</a></li>
+                  <li><a href="../pages/oferta_semanal.html">Ofertas</a></li>
+                  <li><a href="../pages/sobre_nosotros.html">Información</a></li>
+                  <li><a href="#">
+                    <div id="google_translate_element" class="google"></div>
+                    
+                    <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                      new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en, es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+                            }
+                    </script>
+                    
+                    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></a></li>
+                  <li>
+                      <a href="../pages/inicio_sesion.html" class="btn btn-hover">
+                          <span>Login</span>
+                      </a>
+                  </li>
               </ul>
           </div>
       </div>
-      <div>
-          <H2>Misión</H2>
-          <p> Somos más que un cine. Somos un espacio para soñar y compartir. Queremos ser el punto de encuentro para la acción cultural, social y ambiental a través de la innovación, el desarrollo y la participación ciudadana.</p>
-      </div>
-      <div>
-          <h2>Vision</h2>
-          <p>Ser el epicentro de la cultura cinematográfica, donde la diversidad se celebra y la imaginación se despliega. Inspirar, educar y conectar a través del séptimo arte, dejando una huella duradera en el corazón de nuestra ciudad. </p>
-      </div>
   </div>
-  </body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <header>
+        <h1 id="Conocenos">Conocenos</h1>
+      </header>
+    </div>
+        <div class="container">
+        <div id="panel">
+          <p id="content">De click a un boton para ver mas información.</p>
+        </div>
+       
+        <div id="button-container">
+          <button id="button1" class="button">¿Quienes somos?</button>
+          <button id="button2" class="button">Sucursales</button>
+          <button id="button3" class="button">Mision y Vision</button>
+          <button id="button4" class="button">Terminos de Uso</button>
+        </div>
+      </div>
+        <script>
+          const panel = document.getElementById("panel");
+          const buttons = document.getElementsByClassName("button");
+      
+          const contentMap = {
+            button1: `
+            <br>
+            <h2>¿Quienes somos?</h2>
+            <div class="sucursal-container">
+            <p>Cine Familiar es un espacio creado especialmente para que disfrutes del mejor cine en compañía de tus seres queridos. 
+      Brindamos una experiencia cinematográfica segura y agradable para todas las edades, desde los más pequeños hasta los adultos.</p>
+      </div>
+      <div><h2>Nuestros valores:</h2>
+        <div class="sucursal-container">
+          <ul>
+            <li>Familia: Creemos en la importancia de la familia como núcleo fundamental de la sociedad y por ello, ofrecemos un espacio donde puedan compartir momentos inolvidables juntos.</li>
+            <li>Seguridad: Nos comprometemos a brindar un entorno seguro y confiable para que todas las personas puedan disfrutar del cine sin preocupaciones.</li>
+            <li>Diversidad: Ofrecemos una amplia variedad de películas para todos los gustos y edades, para que cada miembro de la familia pueda encontrar algo que le guste.</li>
+            <li>Calidad: Seleccionamos cuidadosamente nuestras películas para garantizar una experiencia cinematográfica de alta calidad.</li>
+            <li>Innovación: Buscamos constantemente nuevas formas de mejorar la experiencia de nuestros usuarios, incorporando nuevas tecnologías y funcionalidades a nuestro sitio web.</li>
+          </ul>
+        </div>`,
+            button2: `<h2>Nuestras sucursales</h2>
+                <div class="sucursal-container">
+                    <h3>Centro Comercial Galerias</h3>
+                    <p>Dirección: Calle Principal #123, Ciudad</p>
+                    <p>Teléfono: (503) 6420-9215</p>
+                </div>
+                <div class="sucursal-container">
+                    <h3>Metrocentro San Salvador</h3>
+                    <p>Dirección: Avenida Norte #456, Ciudad</p>
+                    <p>Teléfono: (503) 7883-7361</p>
+                </div>`,
+            button3: `
+            <br>  
+              
+            <h2>Misión</h2>
+                    <div class="sucursal-container">
+                    <p>Somos más que un cine. Somos un espacio para soñar y compartir. 
+                    Queremos ser el punto de encuentro para la acción cultural, social y ambiental a través de la innovación, el desarrollo y la participación ciudadana.</p>
+      
+                </div>
+                <div class="sucursal-container">
+                    <h2>Visión</h2>
+                    <p>Ser el epicentro de la cultura cinematográfica, donde la diversidad se celebra y la imaginación se despliega. 
+                      Inspirar, educar y conectar a través del séptimo arte, dejando una huella duradera en el corazón de nuestra ciudad.</p>
+                </div>.</p>`,
+            button4: `
+            <br>
+            <h3>Términos y Condiciones</h3>
+              <ul>
+                  <li>Aceptación de los Términos: Al acceder y utilizar este sitio web, usted acepta los presentes términos y condiciones, que regulan el uso del mismo.</li>
+                  <li>Propiedad Intelectual: El contenido de este sitio web, incluyendo texto, imágenes, videos y software, está protegido por derechos de autor y propiedad intelectual de Cine Familiar o de sus terceros proveedores.</li>
+                  <li>Licencia de Uso: Se le concede una licencia no exclusiva, intransferible y revocable para usar el contenido de este sitio web para su uso personal y no comercial.</li>
+                  <li>Restricciones: Se prohíbe la reproducción, distribución, modificación, copia, traducción, adaptación, descompilación, ingeniería inversa o cualquier otra forma de explotación del contenido de este sitio web sin la autorización expresa y por escrito de Cine Familiar.</li>
+                  <li>Modificaciones al Sitio Web: Cine Familiar se reserva el derecho de modificar o eliminar el contenido de este sitio web en cualquier momento, sin previo aviso.</li>
+                  <li>Enlaces a Sitios Web de Terceros: Cine Familiar no se hace responsable por el contenido de sitios web externos enlazados desde este sitio web.</li>
+                  <li>Ley Aplicable y Jurisdicción: Estos términos y condiciones se rigen por las leyes de la República de El Salvador. Cualquier controversia derivada de la interpretación o aplicación de estos términos y condiciones será sometida a la jurisdicción de los tribunales competentes de la ciudad de San Salvador.</li>
+                  <li>Contacto: Si usted tiene alguna pregunta o comentario sobre estos términos y condiciones, por favor contacte a Cine Familiar a través de la página web.</li>
+              </ul>`,
+            
+          };
+      
+      
+      
+      
+      
+          for (const button of buttons) {
+            button.addEventListener("click", function () {
+              const buttonId = this.id;
+              panel.innerHTML = contentMap[buttonId];
+            });
+          }
+        </script>
+      </body>
+      </html>

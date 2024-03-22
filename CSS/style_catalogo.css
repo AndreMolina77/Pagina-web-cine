@@ -17,7 +17,6 @@ html {
 }
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: var(--text-color);
   padding-top: var(--nav-height);
 }
@@ -91,6 +90,7 @@ a {
   display: inline-flex;
   position: relative;
   align-items: center;
+  border-radius: 20px;
 }
 
 .btn-hover::before {
@@ -115,10 +115,11 @@ a {
 
 /*********************************************************/
 h1{
+
+    margin: 20px;
     text-align: center;
     margin: 12px 0 8px 0;
     font-weight: 100;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .linea{
@@ -208,8 +209,7 @@ h1{
 }
 
 h2{
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center
 }
 
 .price{
@@ -226,3 +226,147 @@ h2{
   padding: 15px 10px;
   cursor: pointer;
 }
+
+
+
+* {
+  font-family: "Poppins";
+}
+
+:root {
+  --main-color: #c0392b;
+  --body-bg: blue;
+  --box-bg: blue;
+  --text-color: #ffffff; 
+  --nav-height: 60px;
+}
+
+body nav{
+  font-family: Arial, sans-serif;
+
+
+  margin: 0;
+  padding: 0;
+}
+
+body main{
+  font-family: Arial, sans-serif;
+ 
+ 
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+button {
+  cursor: pointer;
+}
+
+video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height:120%;
+  z-index: -1;
+}
+
+
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  z-index: 99;
+  background-color: blue;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: none; 
+  color: #ffffff;
+  padding-right: 40px;
+  
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.btn {
+  color: #ffffff;
+  padding: .25rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+}
+
+.btn-hover::before {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5%;
+  height: 100%;
+  background-color: #FFCB22;
+  transition: .2s ease-in-out;
+}
+
+.btn-hover:hover::before {
+  width: 85%;
+}
+
+.btn span {
+  z-index: 1;
+}
+
+.btn:hover {
+  color: rgb(67, 70, 255); /* Cambia el color al que desees */
+}
+
+p {
+  margin-top: 4px; /* Ajuste de posición */
+  margin-bottom: -500px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 200%;
+}
+
+.botonesVenta
+{
+  border-radius: 20px;
+}
+
+
+
+
