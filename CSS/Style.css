@@ -17,8 +17,6 @@ body {
 
 #panel {
   background-color: white;
-  display: f;
-  position:sticky;
   background-size: cover;
   align-content: center;
   width: 1250px;
@@ -229,7 +227,6 @@ p {
   
   .container
   {
-    display:block;
     justify-content: center;
     align-items: center;
   }
