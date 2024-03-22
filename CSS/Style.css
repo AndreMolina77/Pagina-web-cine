@@ -5,10 +5,11 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 #panel {
+  display: block;
   align-content: center;
   width: 1110px;
   padding-top: 50px;
@@ -215,7 +216,9 @@ p {
   
   
   .nav-wrapper {
-    position: fixed;
+    padding: 10px;
+    display: flex;
+    position:fixed;
     top: 0;
     left: 0px;
     width: 100%;
